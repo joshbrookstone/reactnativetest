@@ -5,8 +5,16 @@
     "name": "myNewProject",
     "slug": "myNewProject",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
+  },
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#000000"
+  },
+  "icon": {
+    "image": "./assets/icon.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#000000"
   }
 }

@@ -8,7 +8,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "@unimodules/core": "^5.5.1",
+    "@unimodules/react-native-adapter": "^5.6.0",
+    "anonymous-files": "^1.0.1",
     "expo": "~39.0.2",
+    "expo-image-picker": "~9.1.0",
+    "expo-sharing": "~8.4.1",
     "expo-splash-screen": "~0.6.2",
     "expo-status-bar": "~1.0.2",
     "expo-updates": "~0.3.2",
@@ -19,12 +24,14 @@
     "react-native-reanimated": "~1.13.0",
     "react-native-screens": "~2.10.1",
     "react-native-unimodules": "~0.11.0",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "unimodules-permissions-interface": "^5.3.0"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
     "babel-jest": "~25.2.6",
     "jest": "~25.2.6",
+    "metro": "^0.63.0",
     "react-test-renderer": "~16.13.1"
   },
   "jest": {
